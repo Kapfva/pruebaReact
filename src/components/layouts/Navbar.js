@@ -8,7 +8,7 @@ const Navbar = () => {
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
                 <div className="container-fluid">
-                    <a className="navbar-brand p-2 logo " href="#">
+                    <a className="navbar-brand  logo " href="#">
                         {/* col-sm-10 col-md-7 col-lg-9 col-xl-7 col-xxl-7 */}
                         <img
                             className=" img-fluid rounded float-left logo-nav"
@@ -18,7 +18,7 @@ const Navbar = () => {
                         />
                     </a>
                     <button
-                        className="navbar-toggler m-2"
+                        className="navbar-toggler "
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup"
@@ -29,7 +29,7 @@ const Navbar = () => {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div
-                        className="collapse navbar-collapse col-md-5 col-lg-5"
+                        className="collapse navbar-collapse col-md-4 col-lg-4"
                         id="navbarNavAltMarkup"
                     >
                         <div className="navbar-nav m-2 d-flex align-items-center">

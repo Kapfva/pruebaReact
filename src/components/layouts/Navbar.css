@@ -1,7 +1,7 @@
 /* Navbar */
 .navbar {
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 1.3em;
+	font-size: 1.2em;
 	color: white;
 	background-color:#010101;
 	width: 100%;
@@ -18,19 +18,22 @@
 		font-size: 0.9em;
 	}
 	.logo-nav{
-		width: 40%;
+		width: 50%;
 	}
 }
 
 @media screen and (min-device-width: 1200px ) {
 	.logo-nav{
-		width: 40%;
+		width: 60%;
 	}
 }
 
 .nav-item .nav-link:hover {
 	background-color: #ff7f00;
+	color: #010101;
 }
+
+
 
 /* .sticky-top {
 	position: -webkit-sticky;
