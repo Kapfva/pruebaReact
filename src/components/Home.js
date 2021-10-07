@@ -12,8 +12,10 @@ const Home = () => {
     return (
         <div>
             <Navbar />
-            <div className="container">
-                <Carousel />
+            <Carousel />
+            <div className="container app">
+            
+                
                 <AboutUs />
                 <Services />
                 <Equipments />

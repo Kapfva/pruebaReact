@@ -1,16 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import './Navbar.css';
+
 const Navbar = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-                <div className="container-fluid">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div className="container-fluid mx-auto">
                     <a className="navbar-brand p-2 logo " href="#">
                         {/* col-sm-10 col-md-7 col-lg-9 col-xl-7 col-xxl-7 */}
                         <img
-                            className="img-fluid rounded float-left logo-nav"
-                            src="logo_petroblast.png"
+                            className=" img-fluid rounded float-left logo-nav"
+                            src={process.env.PUBLIC_URL+'/logo_petroblast.png'}
                             alt="Petroblast S.A.S"
                             to="/Home"
                         />
