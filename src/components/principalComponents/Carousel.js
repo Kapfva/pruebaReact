@@ -1,47 +1,38 @@
 import React from 'react';
 import './Carousel.css';
+// var Carousel = ReactBootstrap.Carousel;
 
-
-const Carousel = () => {
+const Carouselprincipal = () => {
 	return (
 		<div className="row">
 			<div
-				id="carousel-principal"
-				className="carousel slide"
+				id="carouselExampleFade"
+				className="carousel slide carousel-fade"
 				data-ride="carousel"
 			>
-				<ol className="carousel-indicators">
-					<li
-						data-target="#carousel-principal"
-						data-slide-to="0"
-						className="active"
-					></li>
-					<li data-target="#carousel-principal" data-slide-to="1"></li>
-					<li data-target="#carousel-principal" data-slide-to="2"></li>
-				</ol>
 				<div className="carousel-inner">
 					<div className="carousel-item active">
-						<div className="rojo d-flex align-items-center justify-content-center ">
-							<h1>Yo funciono</h1>
+						{/* <img src="..." className="d-block w-100" alt="..."> */}
+						<div className="verde d-flex align-items-center justify-content-center">
+							egufgsh
 						</div>
-						{/* <img className="d-block w-100" src="..." alt="First slide"> */}
 					</div>
 					<div className="carousel-item">
-						<div className="rojo d-flex align-items-center justify-content-center ">
-							<h1>Yo fun</h1>
+						<div className="rojo d-flex align-items-center justify-content-center">
+							egufgsh
 						</div>
-						{/* <img className="d-block w-100" src="..." alt="Second slide"> */}
+						{/* <img src="..." className="d-block w-100" alt="..."> */}
 					</div>
 					<div className="carousel-item">
-						<div className="rojo d-flex align-items-center justify-content-center ">
-							<h1>Yo funco</h1>
+						<div className="amarillo align-items-center justify-content-center">
+							egufgsh
 						</div>
-						{/* <img className="d-block w-100" src="..." alt="Third slide"> */}
+						{/* <img src="..." className="d-block w-100" alt="..."> */}
 					</div>
 				</div>
 				<a
 					className="carousel-control-prev"
-					href="#carousel-principal"
+					href="#carouselExampleFade"
 					role="button"
 					data-slide="prev"
 				>
@@ -50,7 +41,7 @@ const Carousel = () => {
 				</a>
 				<a
 					className="carousel-control-next"
-					href="#carousel-principal"
+					href="#carouselExampleFade"
 					role="button"
 					data-slide="next"
 				>
@@ -62,4 +53,4 @@ const Carousel = () => {
 	);
 };
 
-export default Carousel;
+export default Carouselprincipal;

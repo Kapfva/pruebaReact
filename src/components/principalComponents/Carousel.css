@@ -1,6 +1,64 @@
+/* :root {
+	--main-white-color: white;
+	--main-black-color: black;
+}
+.static {
+	position: static;
+}
+.cover {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 10em;
+}
+.carousel { */
+	/* position: relative; */
+	/* max-height: 100vh;
+	background-color: lightgray;
+}
+.carousel::before {
+	content: ''; */
+	/* background-color: rgba(0, 0, 0, 0.5); */
+	/* z-index: 3;
+	display: block;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	right: 0;
+	position: absolute;
+}
+.carousel img { */
+	/* position: absolute; */
+	/* height: 100vh;
+	object-fit: cover;
+} */
+/*Slides styles*/
 
+/* .title {
+	font-family: 'Oswald', sans-serif;
+	font-size: 13vh;
+	color: #ff7f00;
+}
+.title-white {
+	font-family: 'Oswald', sans-serif;
+	font-size: 13vh;
+	color: white;
+}
+.subtitle {
+	font-family: 'Muli', sans-serif;
+	font-size: 2.5vh;
+	color: #fff;
+} */
 
 .rojo{
-    background-color: brown;
-    height:  100vh;
+	height: 100vh;
+	background-color: brown;
+}
+.amarillo{
+	height: 100vh;
+	background-color: yellowgreen;
+}
+.verde{
+	height: 100vh;
+	background-color: green;
 }
