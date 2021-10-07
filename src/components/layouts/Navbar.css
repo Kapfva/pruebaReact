@@ -3,12 +3,12 @@
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 1.3em;
 	color: white;
-	background-color: black;
+	background-color:#010101;
 	width: 100%;
 	
 }
 .navbar-dark .navbar-toggler {
-	/* background-color: #007bff; */
+	
 	border-color: #ff7f00;
 }
 

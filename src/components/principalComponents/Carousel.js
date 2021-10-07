@@ -6,18 +6,18 @@ const Carousel = () => {
 	return (
 		<div className="row">
 			<div
-				id="carouselExampleIndicators"
+				id="carousel-principal"
 				className="carousel slide"
 				data-ride="carousel"
 			>
 				<ol className="carousel-indicators">
 					<li
-						data-target="#carouselExampleIndicators"
+						data-target="#carousel-principal"
 						data-slide-to="0"
 						className="active"
 					></li>
-					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					<li data-target="#carousel-principal" data-slide-to="1"></li>
+					<li data-target="#carousel-principal" data-slide-to="2"></li>
 				</ol>
 				<div className="carousel-inner">
 					<div className="carousel-item active">
@@ -41,7 +41,7 @@ const Carousel = () => {
 				</div>
 				<a
 					className="carousel-control-prev"
-					href="#carouselExampleIndicators"
+					href="#carousel-principal"
 					role="button"
 					data-slide="prev"
 				>
@@ -50,7 +50,7 @@ const Carousel = () => {
 				</a>
 				<a
 					className="carousel-control-next"
-					href="#carouselExampleIndicators"
+					href="#carousel-principal"
 					role="button"
 					data-slide="next"
 				>
