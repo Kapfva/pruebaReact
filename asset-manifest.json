@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/pruebaReact/static/css/main.a7d57d98.chunk.css",
-    "main.js": "/pruebaReact/static/js/main.a4a3c16d.chunk.js",
-    "main.js.map": "/pruebaReact/static/js/main.a4a3c16d.chunk.js.map",
-    "runtime-main.js": "/pruebaReact/static/js/runtime-main.52b96295.js",
-    "runtime-main.js.map": "/pruebaReact/static/js/runtime-main.52b96295.js.map",
-    "static/js/2.feb00863.chunk.js": "/pruebaReact/static/js/2.feb00863.chunk.js",
-    "static/js/2.feb00863.chunk.js.map": "/pruebaReact/static/js/2.feb00863.chunk.js.map",
-    "static/js/3.0a446dad.chunk.js": "/pruebaReact/static/js/3.0a446dad.chunk.js",
-    "static/js/3.0a446dad.chunk.js.map": "/pruebaReact/static/js/3.0a446dad.chunk.js.map",
+    "main.css": "/pruebaReact/static/css/main.55469c84.chunk.css",
+    "main.js": "/pruebaReact/static/js/main.af646826.chunk.js",
+    "main.js.map": "/pruebaReact/static/js/main.af646826.chunk.js.map",
+    "runtime-main.js": "/pruebaReact/static/js/runtime-main.11bd53f1.js",
+    "runtime-main.js.map": "/pruebaReact/static/js/runtime-main.11bd53f1.js.map",
+    "static/css/2.b45a0d95.chunk.css": "/pruebaReact/static/css/2.b45a0d95.chunk.css",
+    "static/js/2.668e3a99.chunk.js": "/pruebaReact/static/js/2.668e3a99.chunk.js",
+    "static/js/2.668e3a99.chunk.js.map": "/pruebaReact/static/js/2.668e3a99.chunk.js.map",
+    "static/js/3.60b9a8e1.chunk.js": "/pruebaReact/static/js/3.60b9a8e1.chunk.js",
+    "static/js/3.60b9a8e1.chunk.js.map": "/pruebaReact/static/js/3.60b9a8e1.chunk.js.map",
     "index.html": "/pruebaReact/index.html",
-    "static/css/main.a7d57d98.chunk.css.map": "/pruebaReact/static/css/main.a7d57d98.chunk.css.map",
-    "static/js/2.feb00863.chunk.js.LICENSE.txt": "/pruebaReact/static/js/2.feb00863.chunk.js.LICENSE.txt"
+    "static/css/2.b45a0d95.chunk.css.map": "/pruebaReact/static/css/2.b45a0d95.chunk.css.map",
+    "static/css/main.55469c84.chunk.css.map": "/pruebaReact/static/css/main.55469c84.chunk.css.map",
+    "static/js/2.668e3a99.chunk.js.LICENSE.txt": "/pruebaReact/static/js/2.668e3a99.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.52b96295.js",
-    "static/js/2.feb00863.chunk.js",
-    "static/css/main.a7d57d98.chunk.css",
-    "static/js/main.a4a3c16d.chunk.js"
+    "static/js/runtime-main.11bd53f1.js",
+    "static/css/2.b45a0d95.chunk.css",
+    "static/js/2.668e3a99.chunk.js",
+    "static/css/main.55469c84.chunk.css",
+    "static/js/main.af646826.chunk.js"
   ]
 }
