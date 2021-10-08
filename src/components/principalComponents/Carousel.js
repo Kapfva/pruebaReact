@@ -1,6 +1,7 @@
 import React from 'react';
 import './Carousel.css';
 // var Carousel = ReactBootstrap.Carousel;
+import  CarouselInner  from "./CarouselInner";
 
 const Carouselprincipal = () => {
 	return (
@@ -10,26 +11,7 @@ const Carouselprincipal = () => {
 				className="carousel slide carousel-fade"
 				data-ride="carousel"
 			>
-				<div className="carousel-inner">
-					<div className="carousel-item active">
-						{/* <img src="..." className="d-block w-100" alt="..."> */}
-						<div className="verde d-flex align-items-center justify-content-center">
-							egufgsh
-						</div>
-					</div>
-					<div className="carousel-item">
-						<div className="rojo d-flex align-items-center justify-content-center">
-							egufgsh
-						</div>
-						{/* <img src="..." className="d-block w-100" alt="..."> */}
-					</div>
-					<div className="carousel-item">
-						<div className="amarillo align-items-center justify-content-center">
-							egufgsh
-						</div>
-						{/* <img src="..." className="d-block w-100" alt="..."> */}
-					</div>
-				</div>
+				<CarouselInner/>
 				<a
 					className="carousel-control-prev"
 					href="#carouselExampleFade"
