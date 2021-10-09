@@ -2,27 +2,37 @@ import React from 'react';
 
 import Slide from '../layouts/Slide';
 
+var data = [
+	{
+		id: '1',
+		title: 'Voladuras a cielo abierto',
+		desc: 'Nos especializamos en perforación y voladuras de rocas, con énfasis en técnicas de voladura para obras civiles y militares.',
+	},
+	{
+		id: '2',
+		title: 'Voladuras  subterráneas',
+		desc: 'Somos expertos en el diseño de voladuras subterráneas. Estamos especializados en el control y análisis de vibraciones en voladuras subterráneas y en pit.',
+	},
+	{
+		id: '3',
+		title: 'Vibraciones por tráfico vehicular y trenes',
+		desc: 'Tenemos una amplia experiencia en la medición de vibraciones y ruido causados por tráfico en zonas residenciales.',
+	},
+];
+
+
+const createSlide = data.map((slide) => (
+	<div className={ slide.id == 1 ? 'carousel-item active' :'carousel-item'} key={slide.id}>
+		<Slide title={slide.title} numSlide={slide.id}>
+			{slide.desc}
+		</Slide>
+	</div>
+));
+
 const CarouselInner = () => {
 	return (
 		<div className="carousel-inner">
-			<div className="carousel-item active">
-				<Slide title="Voladuras a cielo abierto" numSlide="1">
-					Nos especializamos en perforación y voladuras de rocas, con énfasis en técnicas
-					de voladura para obras civiles y militares.
-				</Slide>
-			</div>
-			<div className="carousel-item">
-				<Slide title="Voladuras  subterráneas" numSlide="2">
-					Somos expertos en el diseño de voladuras subterráneas. Estamos especializados
-					en el control y análisis de vibraciones en voladuras subterráneas y en pit.
-				</Slide>
-			</div>
-			<div className="carousel-item">
-				<Slide title="Vibraciones por tráfico vehicular y trenes" numSlide="3">
-					Tenemos una amplia experiencia en la medición de vibraciones y ruido causados
-					por tráfico en zonas residenciales.
-				</Slide>
-			</div>
+			{createSlide}
 		</div>
 	);
 };
