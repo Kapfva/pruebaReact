@@ -32,13 +32,13 @@ const Navbar = () => {
                         className="collapse navbar-collapse col-md-4 col-lg-4"
                         id="navbarNavAltMarkup"
                     >
-                        <div className="navbar-nav m-2 d-flex align-items-center">
+                        <div className="navbar-nav d-flex align-items-center">
                             <li className="nav-item flex-fill">
                                 {
                                     <Link
                                         className="nav-link "
                                         activeclass="active"
-                                        to="About"
+                                        to="#About"
                                     >
                                         ¿Quiénes somos?
                                     </Link>
@@ -49,7 +49,7 @@ const Navbar = () => {
                                     <Link
                                         className="nav-link"
                                         activeclass=""
-                                        to="Services"
+                                        to="#Services"
                                     >
                                         Servicios
                                     </Link>
@@ -60,7 +60,7 @@ const Navbar = () => {
                                     <Link
                                         className="nav-link"
                                         activeclass=""
-                                        to="Jobs"
+                                        to="#Jobs"
                                     >
                                         Trabajos
                                     </Link>
@@ -71,7 +71,7 @@ const Navbar = () => {
                                     <Link
                                         className="nav-link"
                                         activeclass=""
-                                        to="Contact"
+                                        to="#Contact"
                                     >
                                         Contacto
                                     </Link>

@@ -1,18 +1,24 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+import './App.css';
+
+
 
 // Componentes
 import Home from "./components/Home";
+import NotFound from "./components/NotFound";
+
 
 const App = () => {
     return (
-        <Router className="App__container">
+        <Router className="App__container ">
             <Switch>
                 {/* <Route exact path="/">
                     <Home />
                 </Route> */}
-                <Route exact path={'/'} component={Home}/>|
+                <Route exact path={'/'} component={Home}/>
+                <Route path={'/Notfound'} component={NotFound}/>
                 {/* <Route path={'/add'} component={Add}/>|
                 <Route path={'/edit/:id'} component={Edit}/>| */}
             </Switch>
