@@ -1,11 +1,13 @@
 .bannerP {
+	height: 97vh;
 	background-color: black;
 	position: relative;
 	z-index: 1;
 }
-.img-opaque {
-	opacity: 0.5;
+.bannerP img {
+	width: 100%;
 }
+
 .caption {
 	position: absolute;
 	z-index: 2;

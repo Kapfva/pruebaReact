@@ -1,4 +1,4 @@
-.button-orange{
+.button-orange {
 	background-color: #ff7f00;
 	color: #fff;
 	font-size: 3vh;
@@ -8,13 +8,19 @@
 	padding-right: 30px;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 700;
+	text-decoration: none;
+}
+.button-orange:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #010101;
 }
 
-.content-page{
+.img-opaque {
+	opacity: 0.5;
+}
+
+.content-page {
 	padding-top: 80px;
 }
 
-
-.prueba img{
-    width: 100%;
-}

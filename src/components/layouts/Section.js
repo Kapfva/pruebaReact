@@ -2,17 +2,19 @@ import React from 'react';
 
 import './Section.css';
 
-const Section = ({ title, desc, children }) => {
+const Section = ({ title, desc, style, children }) => {
 	return (
-		<div className="container p-3">
+		<div className="container p-3 ">
 			<div className="row text-center">
 				<div className=" row text-center d-flex justify-content-center">
-					<h1 className="title-section ">
-						{title} <hr />
+					<h1 className={style == 'white' ? 'title-section-white' : 'title-section'}>
+						{title} <hr className={style == 'white' ? 'separator separator-orange' : 'separator separator-black'} />
 					</h1>
 					<div className="row  d-flex justify-content-center">
 						<div className="col-6">
-							<p className="desc-section">{desc}</p>
+							<p className={style == 'white' ? 'desc-section-white' : 'desc-section'}>
+								{desc}
+							</p>
 						</div>
 					</div>
 				</div>

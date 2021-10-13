@@ -51,7 +51,7 @@ const Footer = () => {
                     <div className="d-flex align-items-center flex-column bd-highlight p-3 div-down col-12">
                         <p className="">©2021 PetroBlast SAS. Todos los derechos reservados.</p>{" "}
                         <p>
-                            <a className="link">Diseñador Web</a> — Karem Pinto
+                            <a className="link">Diseñador Web</a> — Karem V. Pinto F.
                         </p>
                     </div>
                 </div>

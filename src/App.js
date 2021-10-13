@@ -18,7 +18,8 @@ const App = () => {
                     <Home />
                 </Route> */}
                 <Route exact path={'/'} component={Home}/>
-                <Route path={'/Notfound'} component={NotFound}/>
+                <Route exact path={'/Notfound'} component={NotFound}/>
+                <Route exact path={'/prueba'} component={NotFound}/>
                 {/* <Route path={'/add'} component={Add}/>|
                 <Route path={'/edit/:id'} component={Edit}/>| */}
             </Switch>

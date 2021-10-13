@@ -19,6 +19,7 @@ const AboutUs = () => {
 			<Section
 				title="¿Quiénes somos?"
 				desc="Proporcionamos información cualitativa y cuantitativa de la más alta calidad sobre procesos mineros y el uso de explosivos para fragmentación de rocas."
+				class=""
 			>
 				<div className="pl-5 pr-5 p-3">
 					<div className="row">
