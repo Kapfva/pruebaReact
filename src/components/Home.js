@@ -12,7 +12,7 @@ import Equipments from './principalComponents/Equipments';
 const Home = () => {
 	return (
 		<div>
-			<Navbar />
+			{/* <Navbar /> */}
 			{/* <Carousel /> */}
 			<BannerP/>
 			<div className="app">

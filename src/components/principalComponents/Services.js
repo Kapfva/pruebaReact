@@ -9,7 +9,7 @@ const Services = () => {
 	return (
 		<section id="Services">
 			<div className="services">
-				<div className="back w-100">
+				<div className="back ">
                 
 					<img className="img-opaque" src={'/img-Services/fondo.png'}></img>
 				</div>
@@ -20,7 +20,7 @@ const Services = () => {
 							desc="Proporcionamos información cuantitativa y cualitativa de la más alta calidad sobre procesos mineros y el uso de explosivos para fragmentación de rocas."
 							style="white"
 						>
-							<div className="d-flex flex-wrap justify-content-center overflow-auto cards container-scroll m-3">
+							<div className="d-flex flex-wrap justify-content-left overflow-auto cards container-scroll m-3">
 								<Card
 									title="Voladuras a cielo abierto"
 									desc="Diseño de voladuras. Medición de vibraciones y ruido generado por voladuras con aplicaciones como la explotación minera."
