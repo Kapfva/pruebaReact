@@ -12,8 +12,8 @@ const Section = ({ title, desc, style, children }) => {
 						<hr
 							className={
 								style == 'white'
-									? 'separator separator-orange'
-									: 'separator separator-black'
+									? 'separator separator-center separator-orange'
+									: 'separator separator-center separator-black'
 							}
 						/>
 					</h1>

@@ -1,5 +1,12 @@
 .content-page {
 	padding-top: 6vh;
+	overflow: hidden;
+}
+.div-black {
+	background-color: #010101;
+}
+.white-text {
+	color: #fff;
 }
 
 .img-opaque {
@@ -30,4 +37,70 @@
 .container-scroll::-webkit-scrollbar-thumb {
 	background: white;
 	border-radius: 5px;
+}
+.separator {
+	opacity: 1;
+}
+.separator-center {
+	margin: auto;
+}
+.separator-black {
+	/* background-color: #ff7f00; */
+	color: black;
+	width: 10%;
+	height: 0px;
+	border: none;
+	border-top: 0.3vh solid black;
+}
+.separator-orange {
+	/* background-color: #ff7f00; */
+	color: #ff7f00;
+	width: 10%;
+	height: 0px;
+	border: none;
+	border-top: 0.3vh solid #ff7f00;
+}
+.separator-orange-large {
+	/* background-color: #ff7f00; */
+	color: #ff7f00;
+	width: 100%;
+	height: 0px;
+	border: none;
+	border-top: 0.3vh solid #ff7f00;
+}
+
+.link-black {
+	color: #010101;
+	text-decoration: none;
+}
+.link-black:hover {
+	color: #ff7f00;
+}
+.svg-white {
+	fill: #fff;
+}
+.svg-white:hover {
+	fill: #ff7f00;
+}
+.link-white {
+	color: #fff;
+	text-decoration: none;
+}
+.link-white:hover {
+	color: #ff7f00;
+}
+.svg-white {
+	fill: #fff;
+}
+.svg-white:hover {
+	fill: #ff7f00;
+}
+
+/* prueba */
+
+.red {
+	background-color: red;
+}
+.blue {
+	background-color: blue;
 }

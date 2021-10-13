@@ -20,26 +20,7 @@
 	color: white;
 	font-size: 2.5vh;
 }
-.separator{
-	margin:auto;
-	opacity: 1;
-}
-.separator-black{
-	/* background-color: #ff7f00; */
-	color: black;
-	width: 10%;
-	height: 0px;
-    border: none;
-    border-top: .3vh solid black;
-}
-.separator-orange{
-	/* background-color: #ff7f00; */
-	color: #ff7f00;
-	width: 10%;
-	height: 0px;
-    border: none;
-    border-top: .3vh solid #ff7f00;
-}
+
 section{
 	padding-top: 3vh;
 }

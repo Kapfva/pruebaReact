@@ -13,8 +13,8 @@ const Services = () => {
                 
 					<img className="img-opaque" src={'/img-Services/fondo.png'}></img>
 				</div>
-				<div className=" d-flex justify-content-center overflow-hidden pt-5">
-					<div className="front">
+				<div className=" front d-flex justify-content-center overflow-hidden pt-5">
+					<div className="">
 						<Section
 							title="Nuestros Servicios"
 							desc="Proporcionamos información cuantitativa y cualitativa de la más alta calidad sobre procesos mineros y el uso de explosivos para fragmentación de rocas."
