@@ -1,18 +1,22 @@
-#Services{
-    height: 100vh;
-    overflow: hidden;
+.services {
+	height: 100vh;
+	overflow: hidden;
+	background-color: black;
+	position: relative;
 }
 
-.cards{
-    height: 55vh;
-    overflow:auto;
+.back {
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	/* filter: blur(1px); */
 }
-.back{
-    background-color: black;
-    position: absolute;
-    filter: blur(1px);
+.front {
+	position: absolute;
 }
-.front{
-    position: absolute;
-    z-index:500;
+
+.cards {
+	height: 55vh;
+	overflow: auto;
 }

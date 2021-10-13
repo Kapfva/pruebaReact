@@ -21,16 +21,16 @@ const AboutUs = () => {
 				desc="Proporcionamos información cualitativa y cuantitativa de la más alta calidad sobre procesos mineros y el uso de explosivos para fragmentación de rocas."
 				class=""
 			>
-				<div className="pl-5 pr-5 p-3">
+				<div className=" p-5">
 					<div className="row">
 						<div className="col-6">
-							<div className=" d-flex flex-row align-items-center">
+							<div className=" d-flex flex-row align-items-center p-2">
 								<h1 className="title-section">+20</h1>
 								<p className="col-9">Años de experiencia en ingeniería minera, geológica y geofísica.</p>
 							</div>
 						</div>
 						<div className="col-6">
-							<div className="row">
+							<div className="row p-2">
 							<i className="fas fa-hard-hat"></i>
 								<p>
 									Personal capacitado, certificado y especializado en disciplinas afines
@@ -39,7 +39,7 @@ const AboutUs = () => {
 							</div>
 						</div>
 					</div>
-					<div className="">
+					<div className="p-2 pt-3">
 						<button className=" button-orange">Ver más</button>
 					</div>
 				</div>

@@ -8,10 +8,17 @@ const Section = ({ title, desc, style, children }) => {
 			<div className="row text-center">
 				<div className=" row text-center d-flex justify-content-center">
 					<h1 className={style == 'white' ? 'title-section-white' : 'title-section'}>
-						{title} <hr className={style == 'white' ? 'separator separator-orange' : 'separator separator-black'} />
+						{title}{' '}
+						<hr
+							className={
+								style == 'white'
+									? 'separator separator-orange'
+									: 'separator separator-black'
+							}
+						/>
 					</h1>
 					<div className="row  d-flex justify-content-center">
-						<div className="col-6">
+						<div className="col-6 pt-3">
 							<p className={style == 'white' ? 'desc-section-white' : 'desc-section'}>
 								{desc}
 							</p>

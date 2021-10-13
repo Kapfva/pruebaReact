@@ -1,3 +1,10 @@
+.content-page {
+	padding-top: 6vh;
+}
+
+.img-opaque {
+	opacity: 0.5;
+}
 .button-orange {
 	background-color: #ff7f00;
 	color: #fff;
@@ -15,12 +22,12 @@
 	color: white;
 	background-color: #010101;
 }
-
-.img-opaque {
-	opacity: 0.5;
+.container-scroll::-webkit-scrollbar {
+	width: 10px;
+	background: rgb(255, 255, 255, 0.5);
+	border-radius: 5px;
 }
-
-.content-page {
-	padding-top: 80px;
+.container-scroll::-webkit-scrollbar-thumb {
+	background: white;
+	border-radius: 5px;
 }
-
