@@ -13,7 +13,7 @@ const Footer = () => {
 						src={process.env.PUBLIC_URL + 'fondo-negro.png'}
 					></img>
 				</div>
-				<div className="content white-text">
+				<div className="content cover white-text">
 					<div className="pt-4 pl-5">
 						<div className="col-6 row">
 							<img
@@ -152,9 +152,11 @@ const Footer = () => {
 						</div>
 					</div>
 					<hr className="separator separator-orange-large" />
-					<div className="d-flex flex-column justfy-content-center align-items-center">
-						<p>©2021 PetroBlast SAS. Todos los derechos reservados.</p>
-						<p>Diseñador Web — Karem V. Pinto F.</p>
+					<div className="d-flex flex-column justify-content-center align-items-center">
+						
+							<p>©2021 PetroBlast SAS. Todos los derechos reservados.</p>
+							<p>Diseñador Web — Karem V. Pinto F.</p>
+						
 					</div>
 				</div>
 			</div>

@@ -1,32 +1,39 @@
-import React from "react";
-import Section from "../layouts/Section";
+import React from 'react';
+
+import './Equipments.css';
 
 const Equipments = () => {
-    return (
-        <div>
-            <Section
-                title="Monitoreo y control de vibraciones con equipamiento de última generación"
-                desc="Trabajamos en pro de la excelencia, para proveer servicios de calidad, que colaboren en el desarrollo de obras y macro obras de todo tipo. En industrias de ingeniería, contrucción, minería y geología."
-            >
-                <div>
-                    <p className="text-center">
-                        Equipamiento de control sísmco.
-                        <br /> Solo trabajamos con sismógrafos confiables, de
-                        fabricación alemana, canadiense y americana;
-                        especializados en voladuras o demoliciones. Y
-                        certificados en la casa matriz.
-                    </p>
-
-                    <div id="instantel" className="col-6">
-                        <img src=""></img>
-                    </div>
-                    <div id="white" className="col-6">
-                        <img src=""></img>
-                    </div>
-                </div>
-            </Section>
-        </div>
-    );
+	return (
+		<div className="">
+			<div className="text-center">
+				<div className="container p-5 d-flex justify-content-center">
+					<h1 className="title-black col-11 pt-5">
+						Monitoreo y control de vibraciones con equipamiento de última generación
+					</h1>
+				</div>
+				<div className="div-orange d-flex justify-content-center">
+					<div className="col-6">
+						<p className="text-center p-3">
+							Equipamiento de control sísmico.
+							<br /> Solo trabajamos con sismógrafos confiables, de fabricación alemana,
+							canadiense y americana; especializados en voladuras o demoliciones. Y
+							certificados en la casa matriz.
+						</p>
+					</div>
+				</div>
+				<div className="d-flex flex-row justify-content-center pt-5">
+					<div id="instantel" className="col-4 d-flex flex-column m-4">
+						<img src={'Instantel-Canada.png'}></img>
+						<img src={'Picture10.png'}></img>
+					</div>
+					<div id="white" className="col-4 d-flex flex-column m-2">
+						<img src={'USA.png'}></img>
+						<img src={'Picture8.png'}></img>
+					</div>
+				</div>
+			</div>
+		</div>
+	);
 };
 
 export default Equipments;

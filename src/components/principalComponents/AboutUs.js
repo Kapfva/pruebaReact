@@ -19,7 +19,9 @@ const AboutUs = () => {
 			<div className=" d-flex flex-row align-items-center img-about">{numImg}</div>
 			<Section
 				title="¿Quiénes somos?"
-				desc="Proporcionamos información cualitativa y cuantitativa de la más alta calidad sobre procesos mineros y el uso de explosivos para fragmentación de rocas."
+				desc="Trabajamos en pro de la excelencia, para proveer servicios de calidad, que
+						colaboren en el desarrollo de obras y macro obras de todo tipo. En industrias
+						de ingeniería, contrucción, minería y geología."
 				class=""
 			>
 				<div className=" p-5">

@@ -1,12 +1,20 @@
 .services {
-	height: 105vh;
-	overflow: hidden;
-	background-color: black;
+	height: 100%;
+	/* background-color: black; */
 	position: relative;
+	
 }
 
 .back {
-	background-color: black;
+	height: 250vh;
+	/* 
+	position: absolute;
+	object-fit: contain;
+	top:0;
+    bottom: 0;
+    right:0;
+    left: 0; */
+	/* background-color: black; */
 	/* filter: blur(1px); */
 }
 .front {
@@ -15,10 +23,15 @@
     bottom: 0;
     right:0;
     left: 0;
-
+	display:block;
 }
 
 .cards {
-	height: 55vh;
+	max-height: 60vh;
 	overflow: auto;
+	background-color: #5caefc71;
+	top:0;
+    bottom: 0;
+    right:0;
+    left: 0;
 }
