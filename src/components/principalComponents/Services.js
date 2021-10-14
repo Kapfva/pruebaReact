@@ -35,23 +35,23 @@ const Services = () => {
 									<Card
 										title="Control y monitoreo de vibraciones"
 										desc="Control y monitoreo de vibraciones generadas por tráfico vehicular, trenes u obras dentro de la ciudad."
-										imgUrl="/img-Services/logo_petroblast.png"
+										imgUrl="/img-Services/tren.png"
 									/>
 									<Card
 										title="Monitoreo de ruido"
 										desc="Monitoreo de ondas sonoras generadas por tráfico y construcciones."
-										imgUrl="/img-Services/logo_petroblast.png"
+										imgUrl="/img-Services/ruido.png"
 									/>
 									<Card
-										title="Aplicación de normativas para el análisis de vibraciones y control sísmico en voladura de rocas"
-										desc=""
-										imgUrl="/img-Services/logo_petroblast.png"
+										title="Aplicación de normativas "
+										desc="Asistencia en el uso de normativas para el análisis de vibraciones y control sísmico en voladura de rocas."
+										imgUrl="/img-Services/norma.png"
 									/>
-									<Card
+									{/* <Card
 										title="Exploración sísmica"
 										desc="Exploración sísmica para búsqueda de aguas y petróleo."
 										imgUrl="/img-Services/logo_petroblast.png"
-									/>
+									/> */}
 								</div>
 							</div>
 						</Section>
