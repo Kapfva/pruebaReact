@@ -12,7 +12,7 @@ const Article = ({ title, children, imgUrl }) => {
 
 			<div className="content-page">
 				<div className="top-banner">
-					<img src={imgUrl}></img>
+					<img className="img-opaque" src={imgUrl}></img>
 					<div className="title-banner">
 						{title}
 						<hr className="separator separator-white" />
