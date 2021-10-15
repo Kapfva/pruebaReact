@@ -10,7 +10,7 @@ import Services from './principalComponents/Services';
 
 const Home = () => {
 	return (
-		<div>
+		<div className="background-rej">
 			<Navbar />
 			{/* <Carousel /> */}
 			<BannerP />

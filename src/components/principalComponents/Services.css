@@ -2,11 +2,11 @@
 	height: 100%;
 	/* background-color: black; */
 	position: relative;
-	
 }
 
 .back {
 	height: 250vh;
+
 	/* 
 	position: absolute;
 	object-fit: contain;
@@ -19,19 +19,19 @@
 }
 .front {
 	position: absolute;
-    top:0;
-    bottom: 0;
-    right:0;
-    left: 0;
-	display:block;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	display: block;
 }
 
 .cards {
 	max-height: 60vh;
 	overflow: auto;
-	background-color: #5caefc71;
-	top:0;
-    bottom: 0;
-    right:0;
-    left: 0;
+	background-color: #54555771;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
 }

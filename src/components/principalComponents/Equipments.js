@@ -16,18 +16,17 @@ const Equipments = () => {
 						<p className="text-center p-3">
 							Equipamiento de control sísmico.
 							<br /> Solo trabajamos con sismógrafos confiables, de fabricación alemana,
-							canadiense y americana; especializados en voladuras o demoliciones. Y
-							certificados en la casa matriz.
+							canadiense y americana; especializados en voladuras o demoliciones y certificados en la casa matriz.
 						</p>
 					</div>
 				</div>
-				<div className="d-flex flex-row justify-content-center pt-5">
-					<div id="instantel" className="col-4 d-flex flex-column m-4">
-						<img src={'Instantel-Canada.png'}></img>
+				<div className="d-flex flex-row justify-content-center pt-5 container">
+					<div id="instantel" className="col-6 d-flex flex-column align-items-center">
+						<img className="col-7 m-3" src={'Instantel-Canada.png'}></img>
 						<img src={'Picture10.png'}></img>
 					</div>
-					<div id="white" className="col-4 d-flex flex-column m-2">
-						<img src={'USA.png'}></img>
+					<div id="white" className="col-6 d-flex flex-column align-items-center">
+						<img className="col-7 m-3" src={'USA.png'}></img>
 						<img src={'Picture8.png'}></img>
 					</div>
 				</div>
