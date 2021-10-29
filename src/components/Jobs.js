@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Article from '../layouts/Article';
+import Article from './layouts/Article';
 
 const Jobs = () => {
 	return (

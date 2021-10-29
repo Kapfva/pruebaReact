@@ -1,24 +1,23 @@
 import React from "react";
-import { Link,NavLink, withRouter } from "react-router-dom";
+// SMOOT SCROLL 
+import { Link,  animateScroll as scroll } from "react-scroll";
 
 import './Navbar.css';
-
-
 
 const Navbar = () => {
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
                 <div className="container-fluid">
-                    <a className="navbar-brand  logo " href="#">
+                    <Link className="navbar-brand  logo " to="/">
                         {/* col-sm-10 col-md-7 col-lg-9 col-xl-7 col-xxl-7 */}
                         <img
                             className=" img-fluid rounded float-left logo-nav"
                             src={process.env.PUBLIC_URL+'/logo_petroblast.png'}
                             alt="Petroblast S.A.S"
-                            to="/Home"
+                            to="/"
                         />
-                    </a>
+                    </Link>
                     <button
                         className="navbar-toggler "
                         type="button"
@@ -39,8 +38,8 @@ const Navbar = () => {
                                 {
                                     <Link
                                         className="nav-link "
-                                        activeclass="active"
-                                        to="#About"
+                                        activeClassName="active active-Link"
+                                         to="About"
                                     >
                                         ¿Quiénes somos?
                                     </Link>
@@ -50,8 +49,8 @@ const Navbar = () => {
                                 {
                                     <Link
                                         className="nav-link"
-                                        activeclass=""
-                                        to="#Services"
+                                        activeclass="active-Link"
+                                        to="Services"
                                     >
                                         Servicios
                                     </Link>
@@ -62,7 +61,7 @@ const Navbar = () => {
                                     <Link
                                         className="nav-link"
                                         activeclass=""
-                                        to="#Jobs"
+                                        to="/jobs"
                                     >
                                         Trabajos
                                     </Link>
@@ -73,7 +72,7 @@ const Navbar = () => {
                                     <Link
                                         className="nav-link"
                                         activeclass=""
-                                        to="#Contact"
+                                        to="Contact"
                                     >
                                         Contacto
                                     </Link>

@@ -15,7 +15,7 @@ for (var i = 1; i < 5; i++) {
 
 const AboutUs = () => {
 	return (
-		<section id="About" className="back-gray">
+		<section className="back-gray" name="About">
 			<div className=" d-flex flex-row align-items-center img-about">{numImg}</div>
 			<Section
 				title="¿Quiénes somos?"

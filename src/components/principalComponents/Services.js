@@ -8,7 +8,7 @@ import './Services.css';
 
 const Services = () => {
 	return (
-		<section id="Services">
+		<section name="Services">
 			<div className="services ">
 				<div className=" d-flex flex-column ">
 					<div className="pt-5">

@@ -3,26 +3,32 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import './App.css';
 
-
+import Navbar from './components/layouts/Navbar';
+import Footer from './components/layouts/Footer';
 
 // Componentes
 import Home from "./components/Home";
 import NotFound from "./components/NotFound";
+import Jobs from "./components/Jobs";
 
 
 const App = () => {
     return (
         <Router className="App__container ">
+        <Navbar />
             <Switch>
                 {/* <Route exact path="/">
                     <Home />
                 </Route> */}
                 <Route exact path={'/'} component={Home}/>
-                <Route exact path={'/Notfound'} component={NotFound}/>
                 <Route exact path={'/prueba'} component={NotFound}/>
+                <Route exact path={'/jobs'} component={Jobs}/>
+
+                <Route path="*" component={NotFound}/>
                 {/* <Route path={'/add'} component={Add}/>|
                 <Route path={'/edit/:id'} component={Edit}/>| */}
             </Switch>
+            <Footer />
         </Router>
     );
 };

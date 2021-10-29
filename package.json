@@ -1,6 +1,5 @@
 {
-	
-	"homepage":"https://petroblastweb.000webhostapp.com/",
+	"homepage": "https://petroblastweb.000webhostapp.com/",
 	"name": "petroblast-app2",
 	"version": "0.1.0",
 	"private": true,
@@ -16,6 +15,7 @@
 		"react-dom": "^17.0.2",
 		"react-router-dom": "^5.3.0",
 		"react-scripts": "4.0.3",
+		"react-scroll": "^1.8.4",
 		"web-vitals": "^1.1.2"
 	},
 	"scripts": {

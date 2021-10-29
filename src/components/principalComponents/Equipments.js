@@ -4,10 +4,10 @@ import './Equipments.css';
 
 const Equipments = () => {
 	return (
-		<div className="">
-			<div className="text-center">
-				<div className="container p-5 d-flex justify-content-center">
-					<h1 className="title-black col-11 pt-5">
+		<div className=" p-1">
+			<div className="text-center back-gray p-2">
+				<div className="container p-5 d-flex justify-content-center ">
+					<h1 className="title-black col-11">
 						Monitoreo y control de vibraciones con equipamiento de última generación
 					</h1>
 				</div>
