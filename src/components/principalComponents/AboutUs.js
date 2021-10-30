@@ -1,7 +1,7 @@
 import React from 'react';
 import Section from '../layouts/Section';
 
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 import './AboutUs.css';
 
@@ -17,7 +17,7 @@ for (var i = 1; i < 5; i++) {
 
 const AboutUs = () => {
 	return (
-		<section className="back-gray" name="About">
+		<section className="" name="About">
 			<div className=" d-flex flex-row align-items-center img-about">{numImg}</div>
 			<Section
 				title="¿Quiénes somos?"
@@ -26,10 +26,10 @@ const AboutUs = () => {
 						de ingeniería, contrucción, minería y geología."
 				class=""
 			>
-				<div className=" p-5">
+				<div className="p-5">
 					<div className="row">
 						<div className="col-6">
-							<div className=" d-flex flex-row align-items-center p-2">
+							<div className=" d-flex flex-row align-items-center ">
 								<h1 className="text-remarked">+20</h1>
 								<p className="col-9">
 									Años de experiencia en ingeniería minera, geológica y geofísica.
@@ -37,7 +37,9 @@ const AboutUs = () => {
 							</div>
 
 							<div className="p-2 pt-3">
-								 <Link className=" button-orange" to="/about">Conócenos</Link>
+								<Link className=" button-orange" to="/about">
+									Conócenos
+								</Link>
 							</div>
 						</div>
 						<div className="col-6">
@@ -58,12 +60,16 @@ const AboutUs = () => {
 										/>
 										<path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
 									</svg>
-									<p className="ml-3">
-										Personal capacitado, certificado y especializado en disciplinas
-										afines a proyectos de monitoreo de vibraciones.
-									</p>
+									<div>
+										<p className="ml-3">
+											Personal capacitado, certificado y especializado en disciplinas
+											afines a proyectos de monitoreo de vibraciones.
+										</p>
+										<Link className="button-orange" to="/jobs">
+											Trabajos
+										</Link>
+									</div>
 								</div>
-								<Link className=" button-orange" to="/jobs">Trabajos</Link>
 							</div>
 						</div>
 					</div>

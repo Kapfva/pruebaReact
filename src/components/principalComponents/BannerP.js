@@ -7,9 +7,9 @@ var imgRandom = Math.floor(Math.random() * (5 - 1)) + 1;
 const BannerP = () => {
 	return (
 		<div className="bannerP">
-			<div className="d-flex align-items-end justify-content-center">
+			<div className="pt-5 d-flex align-items-end justify-content-center">
 				<img
-					className="img-opaque img-fluid"
+					className="img-opaque img-flex-inverse"
 					src={'/Img-Slides/' + imgRandom + '.png'}
 				></img>
 			</div>

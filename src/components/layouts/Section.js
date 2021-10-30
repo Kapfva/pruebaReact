@@ -25,7 +25,7 @@ const Section = ({ title, desc, style, children }) => {
 						</div>
 					</div>
 				</div>
-				<div className="desc-section">{children}</div>
+				<div className="desc-section pt-2">{children}</div>
 			</div>
 			
 		</div>

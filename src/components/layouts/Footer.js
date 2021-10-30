@@ -9,7 +9,7 @@ const Footer = () => {
 			<div className="footer ">
 				<div className="fondo">
 					<img
-						className="img-opaque"
+						className="img-opaque img-flex-inverse"
 						src={process.env.PUBLIC_URL + '/fondo-negro.png'}
 					></img>
 				</div>

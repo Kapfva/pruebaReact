@@ -1,9 +1,10 @@
 .bannerP {
-	height: 97vh;
+	height: 100vh;
 	background-color: #000;
 	position: relative;
 	overflow: hidden;
 }
+
 .caption {
 	position: absolute;
 	z-index: 2;
@@ -20,6 +21,6 @@
 .subtitle {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
-	font-size: 1.2rem;
+	font-size: 1.rem;
 	color: #fff;
 }

@@ -158,6 +158,12 @@ p {
 	color: #010101;
 }
 
+/* IMAGE  */
+.img-flex-inverse{
+	width: auto;
+	height: 97vh;
+}
+
 /* prueba */
 
 .red {
