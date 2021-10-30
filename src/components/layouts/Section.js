@@ -4,8 +4,8 @@ import './Section.css';
 
 const Section = ({ title, desc, style, children }) => {
 	return (
-		<div className="container p-3 ">
-			<div className="row text-center">
+		<div className="back-gray">
+			<div className="container p-3  text-center">
 				<div className=" row text-center d-flex justify-content-center">
 					<h1 className={style == 'white' ? 'title-section-black' : 'title-section'}>
 						{title}
@@ -25,8 +25,9 @@ const Section = ({ title, desc, style, children }) => {
 						</div>
 					</div>
 				</div>
+				<div className="desc-section">{children}</div>
 			</div>
-			<div className="desc-section">{children}</div>
+			
 		</div>
 	);
 };
