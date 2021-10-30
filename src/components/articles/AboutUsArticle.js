@@ -7,7 +7,7 @@ import Equipments from '../principalComponents/Equipments';
 
 const AboutUsArticle = () => {
 	return (
-		<Article title="¿Quiénes somos?">
+		<Article title="¿Quiénes somos?" imgUrl="pBanner.png">
 			<div className="back-gray">
                 <Equipments/>
             </div>

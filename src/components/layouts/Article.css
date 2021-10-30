@@ -1,6 +1,15 @@
 .top-banner {
+    position:relative;
+    background-color: black;
+    height: 35vh;
+    overflow: hidden;
 }
+
 .title-banner {
+    position: absolute;
+    color: #fff;
+    
 }
 .content-article {
+    position:  relative;
 }

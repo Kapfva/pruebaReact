@@ -1,19 +1,9 @@
 .bannerP {
 	height: 97vh;
-	background-color: red;
+	background-color: #000;
 	position: relative;
 	overflow: hidden;
 }
-.image-banner {
-	background-color: black;
-	height: 97vh;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	/* height: 100%; */
-	/* width: 100%; */
-}
-
 .caption {
 	position: absolute;
 	z-index: 2;

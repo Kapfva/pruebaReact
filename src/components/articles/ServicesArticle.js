@@ -6,7 +6,7 @@ import CardsServices from '../principalComponents/CardsServices';
 
 const ServicesArticle = () => {
 	return (
-		<Article title="Servicios">
+		<Article title="Servicios" imgUrl="pBanner.png">
 			<CardsServices />
 		</Article>
 	);
