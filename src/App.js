@@ -11,7 +11,7 @@ import Home from "./components/Home";
 import NotFound from "./components/NotFound";
 import Jobs from "./components/Jobs";
 import About from "./components/articles/AboutUsArticle";
-
+import ServicesArticle  from "./components/articles/ServicesArticle";
 
 
 const App = () => {
@@ -26,6 +26,7 @@ const App = () => {
                 <Route exact path={'/prueba'} component={NotFound}/>
                 <Route exact path={'/jobs'} component={Jobs}/>
                 <Route exact path={'/about'} component={About}/>
+                <Route exact path={'/services'} component={ServicesArticle}/>
 
                 <Route path="*" component={NotFound}/>
                 {/* <Route path={'/add'} component={Add}/>|

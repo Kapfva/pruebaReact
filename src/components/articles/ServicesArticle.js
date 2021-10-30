@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
+
+import Article from '../layouts/Article';
+
+import CardsServices from '../principalComponents/CardsServices';
 
 const ServicesArticle = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+	return (
+		<Article title="Servicios">
+			<CardsServices />
+		</Article>
+	);
+};
 
-export default ServicesArticle
+export default ServicesArticle;
