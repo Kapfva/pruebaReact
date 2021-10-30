@@ -10,7 +10,7 @@ const Footer = () => {
 				<div className="fondo">
 					<img
 						className="img-opaque"
-						src={process.env.PUBLIC_URL + 'fondo-negro.png'}
+						src={process.env.PUBLIC_URL + '/fondo-negro.png'}
 					></img>
 				</div>
 				<div className="content cover white-text">
@@ -18,7 +18,7 @@ const Footer = () => {
 						<div className="col-6 row">
 							<img
 								className="img-fluid rounded "
-								src="logo_petroblast.png"
+								src={process.env.PUBLIC_URL + '/logo_petroblast.png'}
 								alt="Petroblast S.A.S"
 								to="/Home"
 							/>

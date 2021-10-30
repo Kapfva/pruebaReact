@@ -8,7 +8,6 @@ import './Article.css';
 const Article = ({ title, children, imgUrl }) => {
 	return (
 		<div>
-			<Navbar />
 
 			<div className="content-page">
 				<div className="top-banner">
@@ -20,8 +19,6 @@ const Article = ({ title, children, imgUrl }) => {
 				</div>
 				<div className="content-article">{children}</div>
 			</div>
-
-			<Footer />
 		</div>
 	);
 };

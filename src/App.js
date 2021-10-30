@@ -10,6 +10,8 @@ import Footer from './components/layouts/Footer';
 import Home from "./components/Home";
 import NotFound from "./components/NotFound";
 import Jobs from "./components/Jobs";
+import About from "./components/articles/AboutUsArticle";
+
 
 
 const App = () => {
@@ -23,6 +25,7 @@ const App = () => {
                 <Route exact path={'/'} component={Home}/>
                 <Route exact path={'/prueba'} component={NotFound}/>
                 <Route exact path={'/jobs'} component={Jobs}/>
+                <Route exact path={'/about'} component={About}/>
 
                 <Route path="*" component={NotFound}/>
                 {/* <Route path={'/add'} component={Add}/>|

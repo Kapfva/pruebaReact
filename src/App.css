@@ -1,3 +1,17 @@
+h1{
+	font-size: 3rem;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 600;
+	color: #ff7f00;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 4 00;
+	font-size: 1.2rem;
+}
+
+
 .content-page {
 	padding-top: 6vh;
 	overflow: hidden;
@@ -6,10 +20,10 @@
 	background-color: #010101;
 }
 .background-rej{
-	background-image: url('/src/rejilla.png');
+	/* background-image: url('/src/rejilla.png'); */
 	background-repeat: repeat;
 }
-.back-blue{
+.back-orange{
 	background-color: #ff9a2681;
 }
 .back-gray{
@@ -26,6 +40,12 @@
 
 .white-text {
 	color: #fff;
+}
+.text-remarked{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 600;
+	font-size: 4rem;
+	color: #ff7f00;
 }
 /* IMAGE  */
 .img-opaque {

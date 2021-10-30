@@ -18,7 +18,7 @@ const Section = ({ title, desc, style, children }) => {
 						/>
 					</h1>
 					<div className="d-flex justify-content-center">
-						<div className="col-6 pt-3">
+						<div className="col-7 pt-3">
 							<p className={style == 'white' ? 'desc-section-black' : 'desc-section'}>
 								{desc}
 							</p>
