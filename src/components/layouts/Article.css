@@ -13,3 +13,7 @@
 .content-article {
     position:  relative;
 }
+.recommend-section{
+    background-color: #bdbdbc;
+    height: 35vh;
+}

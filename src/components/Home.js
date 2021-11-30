@@ -6,13 +6,11 @@ import AboutUs from './principalComponents/AboutUs';
 import Services from './principalComponents/Services';
 import Contact from './principalComponents/Contact';
 
-const style ={
-	"background-image": "url("+process.env.PUBLIC_URL + '/rejilla.png'+")",
-};
+
 
 const Home = () => {
 	return (
-		<div className="background-rej" style={style}>
+		<div className="">
 			
 			{/* <Carousel /> */}
 			<BannerP />

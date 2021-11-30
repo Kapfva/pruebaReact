@@ -28,7 +28,7 @@ const AboutUs = () => {
 			>
 				<div className="p-5">
 					<div className="row">
-						<div className="col-6">
+						<div className="col-6" data-aos="fade-up">
 							<div className=" d-flex flex-row align-items-center ">
 								<h1 className="text-remarked">+20</h1>
 								<p className="col-9">
@@ -42,7 +42,7 @@ const AboutUs = () => {
 								</Link>
 							</div>
 						</div>
-						<div className="col-6">
+						<div className="col-6" data-aos="fade-up">
 							<div className="">
 								<div className="d-flex flex-row p-2">
 									<svg

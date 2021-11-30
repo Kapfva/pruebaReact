@@ -1,12 +1,13 @@
-import React from 'react'
-import Article from '../layouts/Article'
+import React from 'react';
+import Article from '../layouts/Article';
+import Contact from '../principalComponents/Contact';
 
 const ContactArticle = () => {
-    return (
-        <Article title="Contacto">
+	return (
+		<Article title="Contacto" imgUrl="pBanner.png">
+			<Contact />
+		</Article>
+	);
+};
 
-        </Article>
-    )
-}
-
-export default ContactArticle
+export default ContactArticle;

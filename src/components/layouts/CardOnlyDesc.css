@@ -1,0 +1,20 @@
+.card{
+    width: 40vh;
+    height: 53vh;
+}
+.card-title{
+    font-weight: 500;
+	font-size: 3vh;
+    color: black;
+}
+.card-text{
+    font-weight: 300;
+	font-size: 2vh;
+    color: black;
+
+}
+
+.image{
+    height: 25vh;
+    overflow: hidden;
+}

@@ -20,7 +20,7 @@ p {
 	background-color: #010101;
 }
 .background-rej{
-	/* background-image: url('/src/rejilla.png'); */
+	background-image: url('/src/rejilla.png');
 	background-repeat: repeat;
 }
 .back-orange{
