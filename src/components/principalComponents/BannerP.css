@@ -1,4 +1,9 @@
+.title-max{
+	/* font-size: 100vw; */
+}
+
 .bannerP {
+	width:auto;
 	height: 100vh;
 	background-color: #000;
 	position: relative;
@@ -8,19 +13,8 @@
 .caption {
 	position: absolute;
 	z-index: 2;
-	top: 5rem;
+	top: 5vh;
 	bottom: 0;
 }
-.title {
-	font-family: 'Roboto Condensed', sans-serif;
-	font-weight: 700;
-	font-size: 5rem;
 
-	color: #ff7f00;
-}
-.subtitle {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 500;
-	font-size: 1.rem;
-	color: #fff;
-}
+

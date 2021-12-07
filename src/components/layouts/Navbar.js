@@ -38,7 +38,7 @@ const Navbar = () => {
 								{
 									<Link
 										className="nav-link "
-										activeClassName="active active-Link"
+										activeclassname="active active-Link"
 										to="/about"
 									>
 										¿Quiénes somos?
@@ -47,21 +47,21 @@ const Navbar = () => {
 							</li>
 							<li className="nav-item">
 								{
-									<Link className="nav-link" activeclass="active-Link" to="/services">
+									<Link className="nav-link" activeclassname="active-Link" to="/services">
 										Servicios
 									</Link>
 								}
 							</li>
 							<li className="nav-item ">
 								{
-									<Link className="nav-link" activeclass="" to="/jobs">
+									<Link className="nav-link" activeclassname="" to="/jobs">
 										Trabajos
 									</Link>
 								}
 							</li>
 							<li className="nav-item ">
 								{
-									<Link className="nav-link" activeclass="" to="/contact">
+									<Link className="nav-link" activeclassname="" to="/contact">
 										Contacto
 									</Link>
 								}

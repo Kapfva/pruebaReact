@@ -4,12 +4,13 @@ import './Section.css';
 
 const Section = ({ title, desc, style, children }) => {
 	return (
-		<div className="back-gray">
+		<div className="back-grayLight" >
 			<div className="container p-3  text-center">
 				<div className=" row text-center d-flex justify-content-center">
 					<h1 className={style == 'white' ? 'title-section-black' : 'title-section'}>
 						{title}
 						<hr
+				
 							className={
 								style == 'white'
 									? 'separator separator-center separator-orange'

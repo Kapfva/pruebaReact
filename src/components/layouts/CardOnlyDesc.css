@@ -1,6 +1,6 @@
-.card{
-    width: 40vh;
-    height: 53vh;
+.card-desc{
+    height: fit-content;
+    
 }
 .card-title{
     font-weight: 500;
@@ -12,9 +12,4 @@
 	font-size: 2vh;
     color: black;
 
-}
-
-.image{
-    height: 25vh;
-    overflow: hidden;
 }

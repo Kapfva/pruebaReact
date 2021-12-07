@@ -14,10 +14,11 @@ const BannerP = () => {
 				></img>
 			</div>
 
-			<div className="caption offset-1 col-6 d-flex align-items-center justify-content-center flex-column">
-				<div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-					<h1 className="title ">Voladuras a cielo abierto y subterráneas</h1>
-					<p className="subtitle ">
+			<div className="caption p-5 offset-1 col-6 d-flex align-items-center justify-content-center flex-column col-auto" >
+				
+				<div className="animate__animated animate__fadeInLeft">
+					<h1 className="title title-orange">Voladuras a cielo abierto y subterráneas</h1>
+					<p className="white-text">
 						Equipo especializado en perforación y diseño de voladuras de rocas, con
 						énfasis en técnicas de voladura para obras a cielo abierto y subterráneas;
 						implementando métodos como <b>Open Pit</b> . Ofrecemos servicios de análisis

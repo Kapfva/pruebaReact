@@ -1,6 +1,6 @@
 .card{
     width: 40vh;
-    height: 53vh;
+    background-color: #bdbdbc;
 }
 .card-title{
     font-weight: 500;

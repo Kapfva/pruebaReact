@@ -1,27 +1,23 @@
 .title-section {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 600;
-	font-size: 3.5rem;
+	font-size: 5vh;
 	color: #ff7f00;
 }
 .desc-section {
 	/* font-size: 1.5rem; */
-	position: relative;
-	overflow: hidden;
+	/* position: relative; */
+	/* overflow: hidden; */
 }
 
 .title-section-black {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 600;
-	font-size: 3.5rem;
-	/* font-size: 5.2rem; */
+	font-size: 5vh;
 	color: #000;
 }
+
 .desc-section-black {
 	color: #000;
 	/* font-size: 1.5rem; */
-}
-
-section {
-	padding-top: 3vh;
 }

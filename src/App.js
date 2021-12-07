@@ -18,34 +18,33 @@ import ContactArticle from './components/articles/ContactArticle';
 // 	"background-image": "url("+process.env.PUBLIC_URL + '/rejilla.png'+")",
 // };
 
-// Animations 
+// Animations
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const App = () => {
 	useEffect(() => {
-        AOS.init();
-        AOS.refresh();
-      });
+		AOS.init();
+		AOS.refresh();
+	});
 	return (
-        
-		// <Router className="App__container background-rej"  style={style}>
-        <Router className="App__container" >
+		<Router className="App__container">
 			<Navbar />
 			<Switch>
-				{/* <Route exact path="/">
-                    <Home />
-                </Route> */}
 				<Route exact path={'/'} component={Home} />
 				<Route exact path={'/prueba'} component={NotFound} />
-				<Route exact path={'/jobs'} component={Jobs} />
-				<Route exact path={'/about'} component={About} />
-				<Route exact path={'/services'} component={ServicesArticle} />
-				<Route exact path={'/contact'} component={ContactArticle} />
+				<Route exact path={'/404'} component={NotFound} />
 
+				<Route exact path={'/about'} component={About} />
+				{/* <Route exact path={'/jobs'} component={Jobs} />
+				<Route exact path={'/services'} component={ServicesArticle} />
+				<Route exact path={'/contact'} component={ContactArticle} /> */}
+
+				{/* <Route exact path={'/about'} component={NotFound} />  */}
+				<Route exact path={'/jobs'} component={NotFound} />
+				<Route exact path={'/services'} component={NotFound} />
+				<Route exact path={'/contact'} component={NotFound} />
 				<Route path="*" component={NotFound} />
-				{/* <Route path={'/add'} component={Add}/>|
-                <Route path={'/edit/:id'} component={Edit}/>| */}
 			</Switch>
 			<Footer />
 		</Router>

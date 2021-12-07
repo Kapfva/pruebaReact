@@ -27,9 +27,8 @@
 }
 
 .cards {
-	max-height: 60vh;
+	max-height: 75vh;
 	overflow: auto;
-	background-color: #54555771;
 	top: 0;
 	bottom: 0;
 	right: 0;
