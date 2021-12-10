@@ -7,44 +7,44 @@ var data = [
 	{
 		id: '1',
 		alt: '',
-		imgUrl: '/img-about/aboutArticle/Picture1.png',
+		imgUrl: '/img-about/aboutArticle/Picture1.webp',
 	},
 	{
 		id: '2',
 		alt: '',
-		imgUrl: '/img-about/aboutArticle/Picture2.png',
+		imgUrl: '/img-about/aboutArticle/Picture2.webp',
 	},
 	{
 		id: '3',
 		alt: '',
-		imgUrl: '/img-about/aboutArticle/Picture3.png',
+		imgUrl: '/img-about/aboutArticle/Picture3.webp',
 	},
 	{
 		id: '4',
 		alt: '',
-		imgUrl: '/img-about/aboutArticle/Picture4.png',
+		imgUrl: '/img-about/aboutArticle/Picture4.webp',
 	},
 	{
 		id: '5',
 		alt: '',
-		imgUrl: '/img-about/aboutArticle/Picture5.png',
+		imgUrl: '/img-about/aboutArticle/Picture5.webp',
 	},
 	{
 		id: '6',
 		alt: '',
-		imgUrl: '/img-about/aboutArticle/Picture6.png',
+		imgUrl: '/img-about/aboutArticle/Picture6.webp',
 	},
 ];
 
 const createImg = data.map((img) => (
-	<div className="col-3 p-2">
+	<div className="col-3 p-2" key={img.id}>
 		<img className="img-responsive" alt={img.alt} src={img.imgUrl} />
 	</div>
 ));
 
 const AboutUsArticle = () => {
 	return (
-		<Article title="¿Quiénes somos?" imgUrl={process.env.PUBLIC_URL + 'Picture2.png'}>
+		<Article title="¿Quiénes somos?" imgUrl={process.env.PUBLIC_URL + 'Picture2.webp'}>
 			<div className="back-grayLight p-3">
 				<div className="container">
 					<div className="d-flex flex-row flex-wrap ">
@@ -52,7 +52,7 @@ const AboutUsArticle = () => {
 							<div className="">
 								<img
 									className="img-responsive"
-									src="/img-about/aboutArticle/IMAG0021.png"
+									src="/img-about/aboutArticle/IMAG0021.webp"
 								/>
 							</div>
 						</div>
@@ -130,7 +130,7 @@ const AboutUsArticle = () => {
 							<div className="p-4 col-6">
 								<img
 									className="img-responsive"
-									src="/img-about/aboutArticle/logo-about.png"
+									src="/img-about/aboutArticle/logo-about.webp"
 								/>
 							</div>
 						</div>

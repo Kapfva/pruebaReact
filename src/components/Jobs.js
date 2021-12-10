@@ -7,7 +7,7 @@ import Article from './layouts/Article';
 const Jobs = () => {
 	return (
 		<div>
-			<Article title="Trabajos Realizados" imgUrl="pBanner.png">
+			<Article title="Trabajos Realizados" imgUrl="pBanner.webp">
 				<div className="container">
 					<embed
 						src={'Experiencia Laboral PetroBlast S.A 2020.pdf#toolbar=0'}

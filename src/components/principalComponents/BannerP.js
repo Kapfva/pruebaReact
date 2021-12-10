@@ -10,7 +10,7 @@ const BannerP = () => {
 			<div className="pt-5 d-flex align-items-end justify-content-center">
 				<img
 					className="img-opaque img-flex-inverse"
-					src={'/Img-Slides/' + imgRandom + '.png'}
+					src={'/Img-Slides/' + imgRandom + '.webp'}
 				></img>
 			</div>
 

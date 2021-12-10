@@ -10,7 +10,7 @@ const numImg = [];
 for (var i = 1; i < 5; i++) {
 	numImg.push(
 		<div key={i}>
-			<img key={i} src={process.env.PUBLIC_URL + '/img-about/' + i + '.png'}></img>
+			<img key={i} src={process.env.PUBLIC_URL + '/img-about/' + i + '.webp'}></img>
 		</div>
 	);
 }

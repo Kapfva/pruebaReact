@@ -11,7 +11,7 @@ const Footer = () => {
 					<div className="col">
 						<img
 							className="img-fluid rounded col-6"
-							src={process.env.PUBLIC_URL + '/logo_petroblast.png'}
+							src={process.env.PUBLIC_URL + '/logo_petroblast.webp'}
 							alt="Petroblast S.A.S"
 							to="/Home"
 						/>

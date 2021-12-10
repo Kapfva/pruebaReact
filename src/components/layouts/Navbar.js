@@ -13,7 +13,7 @@ const Navbar = () => {
 						{/* col-sm-10 col-md-7 col-lg-9 col-xl-7 col-xxl-7 */}
 						<img
 							className=" img-fluid rounded float-left logo-nav"
-							src={process.env.PUBLIC_URL + '/logo_petroblast.png'}
+							src={process.env.PUBLIC_URL + '/logo_petroblast.webp'}
 							alt="Petroblast S.A.S"
 							to="/"
 						/>

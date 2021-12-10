@@ -6,31 +6,31 @@ var data = [
 		id: '1',
 		title: 'Voladuras a cielo abierto',
 		desc: 'Diseño de voladuras. Medición de vibraciones y ruido generado por voladuras con aplicaciones como la explotación minera.',
-		imgUrl: '/img-Services/pit(60ppi).png',
+		imgUrl: '/img-Services/pit(60ppi).webp',
 	},
 	{
 		id: '2',
 		title: 'Voladuras  subterráneas',
 		desc: 'Diseño y medición de voladuras en obras subterráneas, como cavernas, túneles, galerias y pozos. Control de daño y entorno.',
-		imgUrl: '/img-Services/tunel.png',
+		imgUrl: '/img-Services/tunel.webp',
 	},
 	{
 		id: '3',
 		title: 'Control y monitoreo de vibraciones',
 		desc: 'Control y monitoreo de vibraciones generadas por tráfico vehicular, trenes u obras dentro de la ciudad.',
-		imgUrl: '/img-Services/tren.png',
+		imgUrl: '/img-Services/tren.webp',
 	},
 	{
 		id: '4',
 		title: 'Monitoreo de ruido',
 		desc: 'Monitoreo de ondas sonoras generadas por tráfico y construcciones.',
-		imgUrl: '/img-Services/ruido.png',
+		imgUrl: '/img-Services/ruido.webp',
 	},
 	{
 		id: '5',
 		title: 'Aplicación de normativas',
 		desc: 'Asistencia en el uso de normativas para el análisis de vibraciones y control sísmico en voladura de rocas.',
-		imgUrl: '/img-Services/norma.png',
+		imgUrl: '/img-Services/norma.webp',
 	},
 ];
 

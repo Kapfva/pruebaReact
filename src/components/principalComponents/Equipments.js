@@ -13,14 +13,14 @@ const Equipments = () => {
 					<div id="instantel" className="col d-flex flex-column align-items-center ">
 						<img
 							className="col-7 m-3"
-							src={process.env.PUBLIC_URL + '/Instantel-Canada.png'}
+							src={process.env.PUBLIC_URL + '/Instantel-Canada.webp'}
 							
 						></img>
-						<img src={process.env.PUBLIC_URL + '/Picture10.png'}></img>
+						<img src={process.env.PUBLIC_URL + '/Picture10.webp'}></img>
 					</div>
 					<div id="white" className="col d-flex flex-column align-items-center">
-						<img className="col-7 m-3" src={process.env.PUBLIC_URL + '/USA.png'}></img>
-						<img src={process.env.PUBLIC_URL + '/Picture8.png'}></img>
+						<img className="col-7 m-3" src={process.env.PUBLIC_URL + '/USA.webp'}></img>
+						<img src={process.env.PUBLIC_URL + '/Picture8.webp'}></img>
 					</div>
 				</div>
 			</div>
