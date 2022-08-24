@@ -7,12 +7,12 @@ const Section = ({ title, desc, style, children }) => {
 		<div className="back-grayLight" >
 			<div className="container p-3  text-center">
 				<div className=" row text-center d-flex justify-content-center">
-					<h1 className={style == 'white' ? 'title-section-black' : 'title-section'}>
+					<h1 className={style === 'white' ? 'title-section-black' : 'title-section'}>
 						{title}
 						<hr
 				
 							className={
-								style == 'white'
+								style === 'white'
 									? 'separator separator-center separator-orange'
 									: 'separator separator-center separator-black'
 							}
@@ -20,7 +20,7 @@ const Section = ({ title, desc, style, children }) => {
 					</h1>
 					<div className="d-flex justify-content-center">
 						<div className="col-7 pt-3">
-							<p className={style == 'white' ? 'desc-section-black' : 'desc-section'}>
+							<p className={style === 'white' ? 'desc-section-black' : 'desc-section'}>
 								{desc}
 							</p>
 						</div>

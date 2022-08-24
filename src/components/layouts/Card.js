@@ -11,7 +11,7 @@ const Card = ({ title, desc, imgUrl, style }) => {
 					<img src={imgUrl} className="card-img-top" alt={title} />
 				</div>
 
-				<div className= {style =='gray'? 'card-body back-gray' : 'card-body' }>
+				<div className= {style ==='gray'? 'card-body back-gray' : 'card-body' }>
 					<h5 className= "card-title" >{title}</h5>
 					<p className="card-text">{desc}</p>
 					<Link to="/prueba" className=" button-orange">

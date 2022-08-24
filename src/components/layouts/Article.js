@@ -43,15 +43,15 @@ const createRecommendedCard = data.map((card) => (
 
 const Article = ({ title, children, imgUrl, style }) => {
 	return (
-		<div className="content-page">
-			<div className="top-banner d-flex align-items-center">
+		<div className="content-page pt-sm-1">
+			<div className="top-banner d-flex align-items-center ">
 				<img className="img-opaque img-banner img-fluid" src={imgUrl}></img>
 
 				<div className="banner-article offset-1 d-flex flex-column text-center">
 					<h1 className="title-article-white pt-4">{title}</h1>
 					<hr
 						className={
-							style == 'gray'
+							style === 'gray'
 								? 'separator separator-white-large'
 								: 'separator separator-orange-large'
 						}

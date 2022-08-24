@@ -45,26 +45,24 @@ const createImg = data.map((img) => (
 const AboutUsArticle = () => {
 	return (
 		<Article title="¿Quiénes somos?" imgUrl={process.env.PUBLIC_URL + 'Picture2.webp'}>
-			<div className="back-grayLight p-3">
-				<div className="container">
-					<div className="d-flex flex-row flex-wrap ">
-						<div className="col-6">
-							<div className="">
-								<img
-									className="img-responsive"
-									src="/img-about/aboutArticle/IMAG0021.webp"
-								/>
-							</div>
+			<div className="back-grayLight ">
+				<div className="d-flex justify-content-center flex-wrap ">
+					<div className="d-flex flex-row flex-wrap  align-content-stretch offset-1">
+						<div className="col-sm-12 col-xl-5 ">
+							<img
+								className="img-responsive"
+								src="/img-about/aboutArticle/IMAG0021.webp"
+							/>
 						</div>
 
-						<div className="col-6">
-							<div className="pb-4" id="History">
+						<div className="col-xl-5 col-sm-12 d-flex justify-content-between align-content-stretch flex-column">
+							<div className="" id="History">
 								<div
-									className="p-3 back-orange"
+									className="p-5 back-orange"
 									data-aos="fade-up"
 									data-aos-easing="ease-in-sine"
 								>
-									<h1>Historia</h1>
+									<h2>Historia</h2>
 									<p>
 										Somos una empresa colombiana con más de 20 años de experiencia en el
 										monitoreo, análisis y asesoría en el área de vibraciones. Nos
@@ -75,13 +73,13 @@ const AboutUsArticle = () => {
 									</p>
 								</div>
 							</div>
-							<div className="pb-4" id="Mission">
+							<div className="" id="Mission">
 								<div
-									className="p-3 back-mint"
+									className="p-5 back-mint"
 									data-aos="fade-up"
 									data-aos-easing="ease-in-sine"
 								>
-									<h1>Misión</h1>
+									<h2>Misión</h2>
 									<p>
 										Nuestra misión se encuentra centrada en ofrecer servicios de calidad
 										en nuestra área de trabajo que permitan brindar a la comunidad
@@ -91,13 +89,13 @@ const AboutUsArticle = () => {
 									</p>
 								</div>
 							</div>
-							<div className="pb-4" id="Vission">
+							<div className="" id="Vission">
 								<div
-									className="p-4 back-yellow"
+									className="p-5 back-yellow"
 									data-aos="fade-up"
 									data-aos-easing="ease-in-sine"
 								>
-									<h1>Visión</h1>
+									<h2>Visión</h2>
 									<p>
 										Nos proyectamos a futuro como una empresa íntegra dedicada a la
 										investigación de el área minero-energética, reconocida tanto nacional
@@ -106,33 +104,33 @@ const AboutUsArticle = () => {
 								</div>
 							</div>
 						</div>
-						<div className="d-flex flex-row flex-wrap">
-							<div className="pt-4 col-6" id="Logo">
-								<div
-									className="p-3 back-blue"
-									data-aos="fade-up"
-									data-aos-easing="ease-in-sine"
-								>
-									<h1>Logo</h1>
-									<p>
-										A través de años de trabajo hemos participado en múltiples obras, que
-										van desde sondeos hasta mega obras por todo el país. Nuestra razón
-										social ha experimentado múltiples cambios desde entonces, al igual
-										que nuestro logo.
-										<br />
-										Basándonos en la rama de la geología "Petrografía" y en la palabra
-										"Petros" nace la abreviatura "Petro" de nuestra razón social. Además,
-										se acuñó el verbo "Blast", que en su estricta traducción sería
-										"Explosión".
-									</p>
-								</div>
+					</div>
+					<div className="d-flex flex-row offset-1">
+						<div className="pt-4 col-5" id="Logo">
+							<div
+								className="p-5 back-blue"
+								data-aos="fade-up"
+								data-aos-easing="ease-in-sine"
+							>
+								<h2>Logo</h2>
+								<p>
+									A través de años de trabajo hemos participado en múltiples obras, que
+									van desde sondeos hasta mega obras por todo el país. Nuestra razón
+									social ha experimentado múltiples cambios desde entonces, al igual que
+									nuestro logo.
+									<br />
+									Basándonos en la rama de la geología "Petrografía" y en la palabra
+									"Petros" nace la abreviatura "Petro" de nuestra razón social. Además,
+									se acuñó el verbo "Blast", que en su estricta traducción sería
+									"Explosión".
+								</p>
 							</div>
-							<div className="p-4 col-6">
-								<img
-									className="img-responsive"
-									src="/img-about/aboutArticle/logo-about.webp"
-								/>
-							</div>
+						</div>
+						<div className="p-4 col-5">
+							<img
+								className="img-responsive"
+								src="/img-about/aboutArticle/logo-about.webp"
+							/>
 						</div>
 					</div>
 				</div>

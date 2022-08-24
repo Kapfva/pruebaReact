@@ -3,9 +3,9 @@
     "name": "PetroBlast SAS WEB",
     "icons": [
       {
-        "src": "Logo64.png",
+        "src": "Logo64.webp",
         "sizes": "192x192",
-        "type": "image/png"
+        "type": "image/webp"
       }
     ],
     "start_url": "./index.html",

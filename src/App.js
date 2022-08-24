@@ -36,13 +36,13 @@ const App = () => {
 				<Route exact path={'/404'} component={NotFound} />
 
 				<Route exact path={'/about'} component={About} />
-				{/* <Route exact path={'/jobs'} component={Jobs} />
+				{/* <Route exact path={'/jobs'} component={Jobs} /> */}
 				<Route exact path={'/services'} component={ServicesArticle} />
-				<Route exact path={'/contact'} component={ContactArticle} /> */}
+				{/* <Route exact path={'/contact'} component={ContactArticle} /> */}
 
 				{/* <Route exact path={'/about'} component={NotFound} />  */}
 				<Route exact path={'/jobs'} component={NotFound} />
-				<Route exact path={'/services'} component={NotFound} />
+				{/* <Route exact path={'/services'} component={NotFound} /> */}
 				<Route exact path={'/contact'} component={NotFound} />
 				<Route path="*" component={NotFound} />
 			</Switch>

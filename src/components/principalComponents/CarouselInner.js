@@ -37,7 +37,7 @@ var data = [
 
 
 const createSlide = data.map((slide) => (
-	<div className={ slide.id == 1 ? 'carousel-item active' :'carousel-item'} key={slide.id}>
+	<div className={ slide.id === 1 ? 'carousel-item active' :'carousel-item'} key={slide.id}>
 		<Slide title={slide.title} numSlide={slide.id}>
 			{slide.desc}
 		</Slide>
