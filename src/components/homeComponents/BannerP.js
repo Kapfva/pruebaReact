@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './BannerP.css';
+import '@styleHome/BannerP.css';
 
 var imgRandom = Math.floor(Math.random() * (5 - 1)) + 1;
 

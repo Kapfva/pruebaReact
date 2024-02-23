@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Article.css';
+import '@styleLayout/Article.css';
 import Slide from '../layouts/Slide';
 import Card from './Card';
 
@@ -48,7 +48,7 @@ const Article = ({ title, children, imgUrl, style }) => {
 				<img className="img-opaque img-banner img-fluid" src={imgUrl}></img>
 
 				<div className="banner-article offset-1 d-flex flex-column text-center">
-					<h1 className="title-article-white pt-4">{title}</h1>
+					<h1 className="title-article-white pt-5">{title}</h1>
 					<hr
 						className={
 							style === 'gray'

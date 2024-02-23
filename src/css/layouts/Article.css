@@ -1,8 +1,9 @@
 .top-banner {
     position:relative;
     background-color: black;
-    height: 23vh;
+    height: 26vh;
     overflow: hidden;
+    padding-top: 5vh;
     
 }
 .title-article-white {

@@ -1,28 +1,24 @@
-import React from 'react';
+import React from "react";
 
-import Carousel from './principalComponents/Carousel';
-import BannerP from './principalComponents/BannerP';
-import AboutUs from './principalComponents/AboutUs';
-import Services from './principalComponents/Services';
-import Equipments from './principalComponents/Equipments';
-import Contact from './principalComponents/Contact';
-
-
+import Carousel from "./homeComponents/Carousel";
+import BannerP from "./homeComponents/BannerP";
+import AboutUs from "./homeComponents/AboutUs";
+import Services from "./homeComponents/Services";
+import Equipments from "./homeComponents/Equipments";
+import Contact from "./homeComponents/Contact";
 
 const Home = () => {
 	return (
 		<div className="">
-			
 			{/* <Carousel /> */}
 			<BannerP />
 			<div className="app">
+				<Equipments />
 				<AboutUs />
 				<Services />
-				<Equipments/>
+
 				{/* <Contact/> */}
 			</div>
-
-			
 		</div>
 	);
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Carousel.css';
+import '@styleHome/Carousel.css';
 // var Carousel = ReactBootstrap.Carousel;
 import  CarouselInner  from "./CarouselInner";
 

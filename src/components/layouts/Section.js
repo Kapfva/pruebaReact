@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Section.css';
+import '@styleLayout/Section.css';
 
 const Section = ({ title, desc, style, children }) => {
 	return (

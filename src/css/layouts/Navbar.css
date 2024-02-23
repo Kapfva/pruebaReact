@@ -19,13 +19,13 @@
 		font-size: 0.9em;
 	}
 	.logo-nav{
-		width: 50%;
+		width: 45%;
 	}
 }
 
 @media screen and (min-device-width: 1200px ) {
 	.logo-nav{
-		width: 60%;
+		width: 35%;
 	}
 }
 

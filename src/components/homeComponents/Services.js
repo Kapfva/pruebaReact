@@ -5,7 +5,7 @@ import Section from '../layouts/Section';
 
 import CardsServices from './CardsServices';
 
-import './Services.css';
+import '@styleHome/Services.css';
 
 const Services = () => {
 	return (

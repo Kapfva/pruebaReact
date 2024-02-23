@@ -2,6 +2,8 @@ import React from 'react';
 import Section from '../layouts/Section';
 import ContactCard from './ContactCard';
 
+import "@styleHome/Contact.css";
+
 const Contact = () => {
 	return (
 		<Section title="Contacto">

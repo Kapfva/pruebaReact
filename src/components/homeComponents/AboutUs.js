@@ -3,7 +3,7 @@ import Section from '../layouts/Section';
 
 import { Link } from 'react-router-dom';
 
-import './AboutUs.css';
+import '@styleHome/AboutUs.css';
 
 const numImg = [];
 

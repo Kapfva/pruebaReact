@@ -2,7 +2,7 @@ import React from 'react';
 // SMOOT SCROLL
 import { Link } from 'react-router-dom';
 
-import './Navbar.css';
+import '@styleLayout/Navbar.css';
 
 const Navbar = () => {
 	return (
